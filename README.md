@@ -22,13 +22,13 @@ The first argument is parsed with the standard `url` library,
 example output of above would be:
 
 ```go
-	r := &Route{
-		Address: 'localyyz,
-		Adapter: 'gcs',
-		Options: map{string}string{
+    r := &Route{
+        Address: 'localyyz,
+        Adapter: 'gcs',
+        Options: map{string}string{
             'path': '/logs',
         },
-	}
+    }
 ```
 
 ## Image run options
