@@ -36,8 +36,8 @@ example output of above would be:
 The container app supports a few environment variables as options:
 
 * `GCS_KEY_FILE` : your GCS service account JSON key file (optional: if you're using Google App Engine or Google Compute Engine you don't need this)
-* `FLUSH_INTERVAL` : interval that collected logs are then uploaded to S3, as seconds (default: 120)
-* `MAX_SINK_SIZE_MB` : max buffer size for log collection before sending to S3, as MB (default: 16)
+* `FLUSH_INTERVAL` : interval that collected logs are then uploaded to GCS, as seconds (default: 120)
+* `MAX_SINK_SIZE_MB` : max buffer size for log collection before sending to GCS, as MB (default: 16)
 
 ## LICENSE
 
