@@ -39,6 +39,12 @@ The container app supports a few environment variables as options:
 * `FLUSH_INTERVAL` : interval that collected logs are then uploaded to GCS, as seconds (default: 120)
 * `MAX_SINK_SIZE_MB` : max buffer size for log collection before sending to GCS, as MB (default: 16)
 
+## Troubleshoot
+
+Make sure docker run is not executed with `-it` flag. This interferes with
+logspout capturing.
+
+
 ## LICENSE
 
 MIT
